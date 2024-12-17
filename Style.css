@@ -15,6 +15,7 @@ a{
 .container{
     max-width: 1200px;
     margin: auto;
+    margin-top: 70px;
 }
 .nav-bar{
     display: flex;
@@ -49,7 +50,6 @@ a{
 #profile .avatar{
     flex-grow: 1;
     max-width: 50%;
-    margin-left: 70px;
 }
 
 .avatar img{
@@ -84,3 +84,70 @@ a{
     margin-left: 20px;
     font-size: 2rem;
 }
+
+#about {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#about .info {
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+#about .avatar1{
+    flex-grow: 1;
+    max-width: 50%;
+}
+
+#about .avatar1 img{
+    width: 70%;
+    margin-top: 80px;
+}
+
+#about h4{
+    font-size: 2rem;
+}
+
+#about p{
+    margin-top: 20px;
+}
+
+#about span{
+    background-color: blue;
+    padding: 2px 7px;
+}
+
+#about .skill{
+    display: flex;
+    font-size: 0;
+}
+#about .skill .btn-group {
+    margin: 20px 20px 0 0;
+  }
+  
+  #about .skill .btn-group button {
+    padding: 5px 10px;
+    border: none;
+    background-color: yellow;
+    cursor: pointer;
+  }
+  
+  #about .skill .btn-group button:first-child {
+    border-radius: 10px 0 0 10px;
+  }
+  
+  #about .skill .btn-group button:last-child {
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .set-pink {
+    background-color: pink !important;
+  }
+  
+  .set-green {
+    background-color: green !important;
+    color: white;
+  }
+  
